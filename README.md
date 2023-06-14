@@ -17,22 +17,22 @@ _Proposal_
 1. [Facility](#facility)
 2. [Mockup](#mockup)
 3. [Topics](#topics)
-4. [Resources](#resources)
-5. [Technologies](#technologies)
-6. [Tools](#tools)
-. [Developers](#developers)
+4. [Technologies](#technologies)
+5. [Tools](#tools)
+6. [Developers](#developers)
 
 ---
 
 ## Facility:
 
-To install the project, you must clone the repository with the following link:
+To install the project, you must clone the repository with the following link: https://github.com/Sound-IA/SoundIA.git
 
 ---
 
 ## Mockup
 
-
+![Alt text](templates/Desktop1.png) ![Alt text](templates/Desktop2.png) ![Alt text](templates/Desktop3.png) 
+![Alt text](templates/mobile1.png) ![Alt text](templates/mobile2.png) ![Alt text](templates/mobile3.png)
 
 ---
 
@@ -42,28 +42,6 @@ To install the project, you must clone the repository with the following link:
 - Responsive design  (Html - Css)
 - React v.18
 - React-router-dom v.6
-
----
-
-## Resources
-
-[mockup.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8cd3e32d-dc35-4225-ba0e-70f073381fda/mockup.pdf)
-
-[sticker-sheet.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d942d8a-fed6-4c22-845f-c3ee91e7584b/sticker-sheet.pdf)
-
-[images.zip](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/17517576-28a7-436d-bb8a-274253dc506b/images.zip)
-
-🔗 [React Bootstrap](https://react-bootstrap.github.io/)
-
-🔗 [Material UI](https://mui.com/core/)
-
-🔗 [Styled Components](https://styled-components.com/)
-
-🔗 [React CSS Styling](https://www.robinwieruch.de/react-css-styling/)
-
-🔗 [React Semantic UI](https://www.robinwieruch.de/react-semantic-ui-tutorial/)
-
-🔗 [Deploy Github pages](https://dev.to/jhony/despliega-una-aplicacion-de-react-a-github-pages-con-github-actions-facilmente-320m)
 
 ---
 
