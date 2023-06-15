@@ -1,9 +1,9 @@
 import React from "react";
-import "./my-app/styleButtonJoin.css"
+import "./styleButtonJoin.css"
 
 const ButtonJoinNow = () => {
   return (
-    <button>
+    <button className="ButtonJoinNow">
       Join Now
     </button>
   );
