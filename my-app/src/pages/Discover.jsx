@@ -6,5 +6,5 @@ export function Discover() {
     <div>
       <NavBar />
     </div>
-  )
+  );
 }
