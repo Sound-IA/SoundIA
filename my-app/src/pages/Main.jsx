@@ -1,17 +1,11 @@
-// import React from 'react'
-
-// function Main() {
-//   return (
-//     <div>Main</div>
-//   )
-// }
-
-// export default Main
 
 import React from 'react'
+import NavBar from '../components/NavBar'
 
 export function Main() {
   return (
-    <div>Main</div>
+    <>
+    <NavBar />
+    </>
   )
 }
