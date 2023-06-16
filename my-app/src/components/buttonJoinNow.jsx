@@ -3,7 +3,7 @@ import "./styleButtonJoin.css"
 
 const ButtonJoinNow = () => {
   return (
-    <button>
+    <button className="ButtonJoinNow">
       Join Now
     </button>
   );
