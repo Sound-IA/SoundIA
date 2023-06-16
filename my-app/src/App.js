@@ -8,6 +8,7 @@ import ButtonJoinNow from './components/buttonJoinNow/buttonJoinNow.jsx';
 import Footer from './components/footer/footer.jsx';
 
 
+
 function App() {
   return ( 
     <div className="App">
