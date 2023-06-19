@@ -3,7 +3,7 @@ import { NavBar } from '../components/NavBar'
 
 export function Discover() {
   return (
-    <div>
+    <div className='bg-general-background overflow-hidden	relative'>
      <NavBar />
     </div>
   );
