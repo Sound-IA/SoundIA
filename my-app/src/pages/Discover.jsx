@@ -4,7 +4,7 @@ import Footer from '../components/footer/footer';
 
 export function Discover() {
   return (
-    <div>
+    <div className='bg-general-background overflow-hidden	relative'>
      <NavBar />
      <Footer />
     </div>

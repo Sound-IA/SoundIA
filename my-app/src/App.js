@@ -7,6 +7,7 @@ import { Join } from './pages/Join';
 
 
 
+
 function App() {
   return ( 
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
               <Route path='/' element={<Main />} />        
       </Routes>
     </Router>
+  
 
     </div>
   );
