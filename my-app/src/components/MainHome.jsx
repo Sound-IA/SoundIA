@@ -4,7 +4,7 @@ import { ButtonJoinNow } from '../components/buttonJoinNow/buttonJoinNow'
 
 export function MainHome() {
   return (
-    <div className='flex h-screen w-screen' >
+    <div className='flex' >
         <img src={Girl} alt="landing-page-girl" className="md:flex hidden w-[20rem] ml-60" />
         <div className='text-white pt-40 md:pt-16 m-10 md:ml-[5rem] text-left'>
             <h1 className='text-5xl text-white'>Feel the Music</h1>
