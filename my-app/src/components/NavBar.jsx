@@ -20,7 +20,7 @@ export function NavBar() {
         </li>
         <li>
           <NavLink
-            to={"Join"}
+            to={"/Join"}
             className="hover:text-nav-hover text-white"
           >
             Join
