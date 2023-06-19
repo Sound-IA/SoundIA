@@ -6,7 +6,6 @@ import { MainHome } from '../components/MainHome'
 export function Main() {
   return (
     <div className='bg-general-background overflow-hidden	relative'>
-     
       <NavBar />
       <MainHome />
     </div>
