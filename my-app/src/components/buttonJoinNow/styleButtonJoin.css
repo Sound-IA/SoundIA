@@ -1,12 +1,8 @@
-:root {
-    --button-color: #1762A7;
-    --text-color: #FFFFFF; 
-}
 
 .ButtonJoinNow {
-    background-color: var(--button-color);
+    background-color: #1762A7;
     border-radius: 10px;
-    color: var(--text-color);
+    color: #FFFFFF;
     border: none;
     cursor: pointer;
     width: 124px;

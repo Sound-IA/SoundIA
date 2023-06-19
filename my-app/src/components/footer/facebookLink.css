@@ -1,0 +1,12 @@
+.facebookLink-container{
+    display: flex;
+}
+.facebook-logo{
+    width: 0.99rem;
+margin-right: 0.3rem;
+}
+.link-innertext{
+    color: white;
+    font-weight: medium;
+    font-size: 1.2rem;
+}
