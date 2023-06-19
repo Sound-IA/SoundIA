@@ -1,3 +1,4 @@
+const daisyui = require("daisyui");
 
 module.exports = {
   content: [
@@ -28,6 +29,6 @@ module.exports = {
       'bold': '600',
     }
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 

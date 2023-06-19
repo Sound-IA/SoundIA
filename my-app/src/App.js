@@ -1,11 +1,10 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import {Main} from './pages/Main';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Discover } from './pages/Discover';
 import { Join } from './pages/Join';
 import ButtonJoinNow from './components/buttonJoinNow.jsx';
-import MainJoin from './components/MainJoin';
 
 function App() {
   return ( 
@@ -18,9 +17,6 @@ function App() {
       </Routes>
     </Router>
 
-    
-    
-   
     <section>
       <ButtonJoinNow/>
     </section>
