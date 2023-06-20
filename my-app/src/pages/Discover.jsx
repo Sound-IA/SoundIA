@@ -9,6 +9,7 @@ export function Discover() {
      <NavBar />
      <MainDiscover/>
      <Footer />
+    
     </div>
   );
 }
