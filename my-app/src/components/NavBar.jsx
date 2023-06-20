@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "../assets/images/logo.png";
 
+
 export function NavBar() {
   return (
     <div className="flex space-x-7  md:justify-around items-center py-3">
