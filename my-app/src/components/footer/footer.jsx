@@ -1,22 +1,23 @@
 import React from "react";
-import "./footer.css";
 import TwitterLink from "./twitterLink";
 import FacebookLink from "./facebookLink";
 
 
-const Footer = () => {
+function Footer () {
   return (
-    <div className="footer-container">
-        <div className="footer-container-left-div">
-      <p className="footer-anchorText">About Us</p>
-      <p className="footer-anchorText">Contact</p>
+    <div className= "font-semibold justify-around flex items-center bg-footer-form-icon-bg text-white h-16" >
+        <div className= "flex h-6 ">
+          <ul className= "flex ">
+          <li className= "mr-4">About Us</li>
+          <li >Contact</li>
+          </ul>
       </div>
-      <div className="footer-container-right-div">
+      <div className= "flex space-x-4">
       <TwitterLink />
       <FacebookLink />
       </div>
     </div>
   );
-};
+}
+export default Footer
 
-export default Footer;
