@@ -1,12 +1,12 @@
 import React from 'react'
 import { NavBar } from '../components/NavBar'
-import Footer from '../components/footer/footer';
+import MainJoin from '../components/MainJoin'
 
 export function Join() {
   return (
     <div className='bg-general-background overflow-hidden	relative'>
       <NavBar />
-      <Footer />
+      <MainJoin/>
     </div>
   )
 }

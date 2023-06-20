@@ -1,0 +1,13 @@
+.twitterLink-container{
+    display: flex;
+}
+.logo-twitter{
+    width: 1rem;
+    margin-right: 0.3rem;
+}
+.link-innertext{
+    display: flex;
+    color: white;
+    font-weight: medium;
+    font-size: 1.2rem;
+}
