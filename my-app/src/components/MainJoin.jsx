@@ -1,6 +1,15 @@
-import React from 'react'
+import React, {Fragment,useState} from 'react'
 
-function MainJoin() {
+
+  const MainJoin = () => {
+
+  const [datos, setdatos] = React.useState({
+    
+    
+  })
+ 
+
+
   return (
    
   <div className="hero min-h-screen">
