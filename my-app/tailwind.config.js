@@ -28,6 +28,6 @@ module.exports = {
       'bold': '600',
     }
   },
-  plugins: [require("daisyui")],
+  plugins: [],
 }
 
