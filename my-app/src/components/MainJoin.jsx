@@ -1,52 +1,14 @@
-import React, {Fragment,useState} from 'react'
+import React from 'react'
+import { SignupForm } from '../components/form'
 
-
-  const MainJoin = () => {
-
-  const [datos, setdatos] = React.useState({
-    
-    
-  })
- 
-
-
+export function MainJoin() {
   return (
-   
-  <div className="hero min-h-screen">
-    <div className="hero-content flex-col lg:flex-row">
-      <div className="lg:text-left">
-        <h1 className="text-5xl font-bold">Join the fun.</h1>
-      </div>
-      <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-        <div className="card-body">
-          <div className="form-control">
-          <label className="label">
-            <span className="label-text">Name:</span>
-          </label>
-          <input type="text" placeholder="" className="input input-bordered" />
-          <label className="label">
-          </label>
-            <label className="label">
-              <span className="label-text">Email:</span>
-            </label>
-            <input type="text" placeholder="" className="input input-bordered" />
-          </div>
-          <div className="form-control">
-            <label className="label">
-              <span className="label-text">Password</span>
-            </label>
-            <input type="text" placeholder="" className="input input-bordered" />
-            <label className="label">
-            </label>
-          </div>
-          <div className="form-control mt-6">
-            <button className="btn button-hover">Join Now</button>
-          </div>
-        </div>
-      </div>
+    
+    <div className='flex flex-col w-6/6 mt-4 mx-4 px-4 xl:w-4/6 xl:mx-auto xl:my-[9em] xl:flex-row xl:justify-between xl:px-0 xl:items-center'>
+    
+        <h1 className='text-6xl self-start font-bold text-white w-6/6 z-20 xl:w-3/6 xl:self-center' >Join the <span className='text-accent-text'>fun.</span></h1>
+      <SignupForm />
+        
     </div>
-</div>
   )
 }
-
-export default MainJoin
