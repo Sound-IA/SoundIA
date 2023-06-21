@@ -1,6 +1,6 @@
 import React from 'react';
 import { act, fireEvent, render, screen } from '@testing-library/react';
-import { SignupForm } from './form';
+import { SignupForm } from './Form';
 import { storeData } from './storeData';
 
 jest.mock('./storeData', () => ({

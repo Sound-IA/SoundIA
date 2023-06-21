@@ -18,7 +18,7 @@ describe("navbar component", () => {
       joinLink = screen.getByText('Join');
     });
   
-    test("renders logo", () => {
+    test("check Logo should be in the Navbar and has image and text", () => {
       const Logo = screen.getByAltText("Logo");
       expect(Logo).toBeInTheDocument();
   
@@ -26,7 +26,7 @@ describe("navbar component", () => {
       expect(logoText).toBeInTheDocument();
     });
   
-    test("renders texts", () => {
+    test("text should be in Navbar", () => {
       const discoverLink = screen.getByText("Discover");
       expect(discoverLink).toBeInTheDocument();
   
@@ -34,7 +34,7 @@ describe("navbar component", () => {
       expect(joinLink).toBeInTheDocument();
     });
   
-    test("renders events", () => {
+    test("check events", () => {
       fireEvent.click(joinLink);
       expect(window.location.pathname).toBe("/Join");
   
