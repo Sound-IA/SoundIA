@@ -3,7 +3,7 @@ import facebookLogo from "../../assets/images/facebook.svg";
 
 const FacebookLink = () => {
   return (
-    <div className = 'flex flex-col items-center mt-0.5 lg:flex-row lg:mx-12  xl:flex-row'>
+    <div className = 'flex flex-col items-center mt-0.5 lg:flex-row lg xl:flex-row'>
         <img className="w-4 mr-1"
           src={facebookLogo}
           alt="Logo de la red social Facebook en color blanco a la derecha del pie de pagina de la web"
