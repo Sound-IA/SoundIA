@@ -4,17 +4,18 @@ import FacebookLink from "./facebookLink";
 
 function Footer() {
   return (
-    <div className="flex w-180 font-semibold bg-footer-form-icon-bg text-white h-16 items-center lg:space-x-78 md:space-x-80 lg:flex-row lg:justify-between">
-      <div className="flex space-x-4 md:ml-46 lg:ml-60 xl:ml-60">
-        <ul className="flex ml-6 w-48 space-x-2 mr-4 lg:space-x-8 md:space-x-8 xl:space-x-8">
+    <div className= "w-full font-semibold bg-footer-form-icon-bg text-white h-16 items-center md:w-full md:items-center lg:items-center lg:w-full lg:flex-row">
+      <div className="flex space-x-6 w-6/6 md:ml-46 lg:w-6/6 lg:justify-end lg:mr-10 lg:ml-60 lg:items-center xl:ml-60">
+        <ul className="flex ml-6 w-2/6 space-x-4 mr-4 lg:space-x-8 lg:w-2/6 md:space-x-8 xl:space-x-8">
           <li ClassName="mr-2 lg:mr-8">About Us</li>
-          <li ClassName="ml-4">Contact</li>
+          <li>Contact</li>
         </ul>
+        <div className=" w-3/6 flex items-end flex-row md:flex md:flex-row lg:w-4/6 md:ml-89 lg:items-end lg:flex lg:flex-row lg:items-center xl:flex xl:flex-row">
         <TwitterLink />
         <FacebookLink />
+        </div>
+    </div> 
       </div>
-     {/* <div className="font-semibold flex w-48 md:space-x-8 lg:mx-20 lg:w-108 lg:space-x-2 xl:w-200 lg:flex-row lg:space-between lg: xl:mx-28"></div>*/}
-    </div>
   );
 }
 export default Footer;
