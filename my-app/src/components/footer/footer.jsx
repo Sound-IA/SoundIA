@@ -5,17 +5,18 @@ import FacebookLink from "./facebookLink";
 
 function Footer () {
   return (
-    <div className= "font-semibold justify-around flex items-center bg-footer-form-icon-bg text-white h-16" >
-        <div className= "flex h-6 ">
-          <ul className= "flex ">
-          <li className= "mr-4">About Us</li>
-          <li >Contact</li>
+    <div className= "font-semibold space-x-8 space-around flex bg-footer-form-icon-bg text-white h-16 items-center lg:flex-row lg:justify-between" >
+        <div className= "flex space-around ml-4 w-48 lg:ml-60 xl:ml-60">
+          <ul className= "flex space-x-4" >
+          <li ClassName= "mr-2 lg:mr-4">About Us</li>
+          <li ClassName= "ml-0.5" >Contact</li>
           </ul>
       </div>
-      <div className= "flex space-x-4">
+      <div className= "font-semibold flex w-48 lg:mr-68 xl:ml-45">
       <TwitterLink />
       <FacebookLink />
-      </div>
+  
+    </div>
     </div>
   );
 }
