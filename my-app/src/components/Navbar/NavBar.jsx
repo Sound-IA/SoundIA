@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "../assets/images/logo.png";
+import Logo from "../../assets/images/logo.png";
 
 export function NavBar() {
   return (
@@ -9,7 +9,7 @@ export function NavBar() {
         <img src={Logo} alt="Logo" className="w-16 m-4" />
         <span className="text-white text-lg">Soundwave</span>
       </NavLink>
-      <ul className="flex space-x-6 ">
+      <ul className="flex space-x-6">
         <li>
           <NavLink to={"/Discover"} className="hover:text-nav-hover text-white">
             Discover
