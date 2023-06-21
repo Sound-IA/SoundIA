@@ -21,7 +21,7 @@ export function MainDiscover() {
               </ul>
               <p>By joining you can benefit by listening to the latest albums released.</p>
         </div>
-        <img src={Covers} alt='four album covers' className='w-80 self-center'></img>
+        <img src={Covers} alt='four album covers' className='w-[15rem]self-center xl:w-80 '></img>
     </div>
   )
 }

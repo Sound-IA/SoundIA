@@ -1,5 +1,5 @@
 import React from 'react'
-import { SignupForm } from './form'
+import { SignupForm } from './Form'
 
 export function MainJoin() {
   return (
