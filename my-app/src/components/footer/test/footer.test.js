@@ -1,7 +1,7 @@
 //Test Footer
 
 import { render,screen } from '@testing-library/react';
-import Footer from './footer';
+import Footer from '../footer'
 
 
 describe ('prueba de render del texto About Us y Contact del componente footer', ()=> {

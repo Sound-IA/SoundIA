@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import TwitterLink from "./twitterLink";
-import FacebookLink from "./facebookLink";
+import TwitterLink from "../twitterLink";
+import FacebookLink from "../facebookLink";
 
 describe("componente TwitterLink renderiza correctamente", () => {
   it("renders the Twitter logo and text", () => {
