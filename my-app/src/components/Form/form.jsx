@@ -1,26 +1,7 @@
 import React from 'react';
 import { useFormik } from 'formik';
-
-const validate = values => {
-  const errors = {};
-
-  if (!values.name || !values.name.trim()) {
-    errors.name = 'Required';
-  }
-
-  if (!values.email || !values.email.trim()) {
-      errors.email = 'Required';
-    } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
-      errors.email = 'Invalid email address';
-  }
-  
-  if (!values.password || !values.password.trim()) {
-    errors.password = 'Required';
-  } else if (!/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/i.test(values.password)) {
-    errors.password = 'Must be minimum 8 characters, have at least 1 letter and 1 number';
-  }
-  return errors;
-};
+import { ValidateForm } from './validateForm';
+import { storeData } from './storeData';
 
 export function SignupForm () {
   const formik = useFormik({
@@ -30,16 +11,19 @@ export function SignupForm () {
       password: '',
       
     },
-    validate,
+    validate: ValidateForm, 
     onSubmit: values => {
-      JSON.stringify(values, null, 2);
-      alert('Form was sended correctly');
+        
+      storeData(values)
+
+      alert('Welcome to the Soundwave! Join the fun!');
+
       formik.resetForm()
       
     }
   });
   return (
-      <form onSubmit={formik.handleSubmit} className='text-white flex-col flex bg-footer-form-icon-bg px-10 py-7 rounded-xl z-20 my-5 w-[20rem] md:w-[30rem]'>
+      <form onSubmit={formik.handleSubmit} className='text-white flex-col flex self-center bg-footer-form-icon-bg px-10 py-7 rounded-xl z-20 my-5 w-[22rem] md:w-[30rem]'>
       <label htmlFor="name">Name:</label>
       <input
         id="name"
@@ -86,3 +70,9 @@ export function SignupForm () {
       </form>
   );
 };
+
+
+
+
+
+
