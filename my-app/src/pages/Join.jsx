@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/footer/footer";
 import { MainJoin } from "../components/Form/MainJoin";
-import { NavBar } from "../components/NavBar";
+import { NavBar } from "../components/Navbar/NavBar";
 
 export function Join() {
   return (
