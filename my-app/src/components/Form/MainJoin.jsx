@@ -1,5 +1,5 @@
 import React from "react";
-import { SignupForm } from "./form";
+import { SignupForm } from "./Form";
 
 export function MainJoin() {
   return (
@@ -7,7 +7,7 @@ export function MainJoin() {
       <h1 className="text-6xl self-start font-bold text-white w-6/6 z-20 xl:w-3/6 xl:self-center">
         Join the <span className="text-accent-text leading-loose">fun.</span>
       </h1>
-      <SignupForm />
+      <SignupForm/>
     </div>
   );
 }
