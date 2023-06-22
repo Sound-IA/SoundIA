@@ -1,5 +1,10 @@
+/* eslint-disable testing-library/no-unnecessary-act */
 import React from 'react';
+<<<<<<< HEAD
 import { act, fireEvent, render, screen } from '@testing-library/react';
+=======
+import { act, fireEvent, render, screen, waitFor } from '@testing-library/react';
+>>>>>>> b591db01bbfaac8a3cf8ef1e84295092c27f04a6
 import { SignupForm } from './Form';
 import { storeData } from './storeData';
 
@@ -31,7 +36,6 @@ describe('SignupForm', () => {
 
     const submitButton = screen.getByText('Join Now');
 
-    // eslint-disable-next-line testing-library/no-unnecessary-act
     await act(async () => {
       fireEvent.click(submitButton);
     });
@@ -63,7 +67,6 @@ describe('SignupForm', () => {
 
     const submitButton = screen.getByText('Join Now');
 
-    // eslint-disable-next-line testing-library/no-unnecessary-act
     await act(async () => {
       fireEvent.click(submitButton);
     });
@@ -83,7 +86,6 @@ describe('SignupForm', () => {
 
     const submitButton = screen.getByText('Join Now');
 
-    // eslint-disable-next-line testing-library/no-unnecessary-act
     await act(async () => {
       fireEvent.click(submitButton);
     });
@@ -92,7 +94,7 @@ describe('SignupForm', () => {
     
   })
 
-  it('error message "required" for empry name input', async () => {
+  it('error message "required" for empty name input', async () => {
     render(<SignupForm />);
 
     const nameInput = screen.getByLabelText('Name:');
@@ -106,7 +108,6 @@ describe('SignupForm', () => {
 
     const submitButton = screen.getByText('Join Now');
 
-    // eslint-disable-next-line testing-library/no-unnecessary-act
     await act(async () => {
       fireEvent.click(submitButton);
     });
@@ -131,7 +132,6 @@ describe('SignupForm', () => {
 
     const submitButton = screen.getByText('Join Now');
 
-    // eslint-disable-next-line testing-library/no-unnecessary-act
     await act(async () => {
       fireEvent.click(submitButton);
     });
@@ -141,5 +141,59 @@ describe('SignupForm', () => {
   expect(errorMessages[0]).toBeInTheDocument();
     
   })
+
+  it('error message after user touched the input and did write nothing', async () => {
+    render(<SignupForm />);
+    
+    const passwordInput = screen.getByLabelText('Password:');
+
+    await act(async () => {
+      fireEvent.focus(passwordInput);
+      fireEvent.blur(passwordInput)
+    });
+
+    await waitFor(() => {
+    const errorMessages = screen.queryAllByText('Required');
+    expect(errorMessages[0]).toBeInTheDocument();
+  });
+
+    await act(async () => {
+    fireEvent.change(passwordInput, { target: { value: 'password1234' } });
+    });
+    
+    await waitFor(() => {
+    const errorMessages = screen.queryAllByText('Required');
+    expect(errorMessages.length).toBe(0);
+  });
+
+  })
+
+  it('error message desappears after user comes back to touched input and writes correct password', async () => {
+    render(<SignupForm />);
+    
+    const nameInput = screen.getByLabelText('Name:');
+    const emailInput = screen.getByLabelText('Email:');
+    const passwordInput = screen.getByLabelText('Password:');
+
+    fireEvent.change(nameInput, { target: { value: 'Yana' } });
+    fireEvent.change(emailInput, { target: { value: 'yana@gmail.com' } });
+    fireEvent.focus(passwordInput);
+    fireEvent.change(passwordInput, { target: { value: '' } });
+    fireEvent.blur(passwordInput);
+
+
+    await act(async () => {
+      fireEvent.focus(passwordInput);
+      fireEvent.change(passwordInput, { target: { value: 'password1234' } });
+      fireEvent.blur(passwordInput);
+
+    });
+    await waitFor(() => {
+    const errorMessages = screen.queryAllByText('Required');
+    expect(errorMessages.length).toBe(0);
+    });
+
+  })
+  
 
 });
