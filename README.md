@@ -31,7 +31,7 @@ To install the project, you must clone the repository with the following link: h
 ## Mockup
 
 ![Alt text](src/assets/images/templates/Desktop1.png) ![Alt text](src/assets/images/templates/Desktop2.png) ![Alt text](src/assets/images/templates/Desktop3.png) 
-![Alt text](src/assets/images/templates/mobile1.png) ![Alt text](src/assets/images/templates/mobile2.png) ![Alt text](src/assets/images/templates/mobile3.png)
+![Alt text](src/assets/images/templates/mobile1.png) ![Alt text](src/assets/images/templates/mobile2.png) ![Alt text](my-app\src\assets\images\templates\Desktop3.png) 
 
 ---
 
