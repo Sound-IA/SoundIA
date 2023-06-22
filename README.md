@@ -30,8 +30,13 @@ To install the project, you must clone the repository with the following link: h
 
 ## Mockup
 
-![Alt text](src/assets/images/templates/Desktop1.png) ![Alt text](src/assets/images/templates/Desktop2.png) ![Alt text](src/assets/images/templates/Desktop3.png) 
-![Alt text](src/assets/images/templates/mobile1.png) ![Alt text](src/assets/images/templates/mobile2.png) ![Alt text](src/assets/images/templates/mobile3.png)
+![Desktop1](https://github.com/Sound-IA/SoundIA/assets/129850727/b0019bd0-7934-49a5-b9fa-6f34e1b985f4)
+![Desktop2](https://github.com/Sound-IA/SoundIA/assets/129850727/c8cc9bb3-6151-4bd2-a171-68e4c0aa9c4d)
+![Desktop3](https://github.com/Sound-IA/SoundIA/assets/129850727/b5f0d2a0-0b35-43d4-8fbe-eff170551857)
+
+![mobile1](https://github.com/Sound-IA/SoundIA/assets/129850727/949ef7cc-5bdf-46da-b28f-bd10c874c22b)
+![mobile2](https://github.com/Sound-IA/SoundIA/assets/129850727/50f1432a-e6c7-4063-891f-1c4960d29db2)
+![mobile3](https://github.com/Sound-IA/SoundIA/assets/129850727/2d1c203d-f4e1-4019-824c-87e10edd255a)
 
 ---
 
