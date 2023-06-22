@@ -1,6 +1,5 @@
 # Project Name: Sound Wave
 
-_Proposal_
 
 # SoundIA
 
@@ -32,7 +31,8 @@ To install the project, you must clone the repository with the following link: h
 ## Mockup
 
 ![Alt text](templates/Desktop1.png) ![Alt text](templates/Desktop2.png) ![Alt text](templates/Desktop3.png) 
-![Alt text](templates/mobile1.png) ![Alt text](templates/mobile2.png) ![Alt text](templates/mobile3.png)
+(![iPhone 14 Pro - 1](https://github.com/Sound-IA/SoundIA/assets/131755081/433e5ef4-7a8e-4dc0-b1c3-e7a93ab63b39)) 
+![Alt text](templates/mobile2.png) ![Alt text](templates/mobile3.png)
 
 ---
 
@@ -47,9 +47,12 @@ To install the project, you must clone the repository with the following link: h
 
 ## Technologies
 
-<div> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </div>
+<div> 
+  <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="react logo" width="140" height="70"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Tailwind_CSS_logo.svg" alt="tailwind css logo" width="180" height="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript logo" width="40" height="40"/> 
+       
+</div>
 
 ---
 
@@ -66,7 +69,7 @@ To install the project, you must clone the repository with the following link: h
 
 ## Developers
 
-       Florencia Bordon Garcia.
+       Florencia Bordon Gracia.
        Rosmery Medina.
        Denise Khurlopian.
        Sylvia Llorente Suárez.
