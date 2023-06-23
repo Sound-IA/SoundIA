@@ -1,6 +1,6 @@
 import React from "react";
 import Girl from "../assets/images/landing-page-girl.png";
-import { ButtonJoinNow } from "./buttonJoinNow/buttonJoinNow";
+import { ButtonJoinNow } from "../components/buttonJoinNow/buttonJoinNow";
 
 export function MainHome() {
   return (
