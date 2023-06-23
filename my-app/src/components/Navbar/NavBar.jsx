@@ -4,9 +4,9 @@ import Logo from "../../assets/images/logo.png";
 
 export function NavBar() {
   return (
-    <div className="flex space-x-7  md:justify-around items-center py-3">
+    <div className="flex space-x-7  md:justify-around xl:justify-between xl:w-4/6 xl:mx-auto xl:space-x-0 items-center py-3">
       <NavLink to={"/"} className="z-10 flex items-center ">
-        <img src={Logo} alt="Logo" className="w-16 m-4" />
+        <img src={Logo} alt="Logo" className="w-16 m-4 xl:ml-0" />
         <span className="text-white text-lg">Soundwave</span>
       </NavLink>
       <ul className="flex space-x-6 ">
