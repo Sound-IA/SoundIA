@@ -1,10 +1,6 @@
 /* eslint-disable testing-library/no-unnecessary-act */
 import React from 'react';
-<<<<<<< HEAD
-import { act, fireEvent, render, screen } from '@testing-library/react';
-=======
 import { act, fireEvent, render, screen, waitFor } from '@testing-library/react';
->>>>>>> b591db01bbfaac8a3cf8ef1e84295092c27f04a6
 import { SignupForm } from './Form';
 import { storeData } from './storeData';
 
